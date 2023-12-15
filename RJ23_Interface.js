@@ -5,15 +5,15 @@
 var contenu = [
     ["17/12/2023 au 22/12/2023", "La musique, élément central de nos sociétés",
         [   ["IllustEmiss-22_12_23.jpg", "Audio-22_12_23.mp3"], 
-            ["Javier Milei bouleverse l'Argentine avec des mesures choc", "IllustChro1-22_12_23.jpg", "Depuis plus d'un an, l'Argentine traverse une très forte crise économique. Selon l'Institut Argentin de Statistiques, les prix ont subi une inflation de environ 140%.<br>\n\
-Lors des élections de décembre, c'est Javier Milei qui s'est imposé en proposant une réponse radicale à la crise : l'ultra libéralisme. Depuis son élection le 10 décembre, le gouvernement a opéré à iune forte désévaluation du peso (monnaie argentine) en faveur du dollar, et à une réduction drastique du budget et des subventions de l'Etat.<br>\n\
-Ces mesures annoncent des prochains mois très difficiles pour les argentins, qui verront leur pouvoir d'achat encore diminuer, mais devraient avoir des effet bénéfiques sur l'inflation sur le long terme"],
-            ["La loi immigration, qu'est-ce que c'est ?", "IllustChro2-22_12_23.jpg", "Depuis le 14 novembre 2023, la 'loi immigration', validéen par le Sénat est en cours d'étude par l'Assemblée nationale. Mais en fait, elle veut faire quoi cette loi ?<br>\n\
+            ["Javier Milei bouleverse l'Argentine avec des mesures choc", "IllustChro1-22_12_23.jpg", "Depuis plus d'un an, l'Argentine traverse une très forte crise économique. Selon l'Institut Argentin de Statistiques, les prix ont subi une inflation de environ 140% entre octobre 2022 et octobre 2023.<br>\n\
+Lors des élections de décembre, c'est Javier Milei qui s'est imposé en proposant une réponse radicale à la crise : l'ultra libéralisme. Depuis son élection le 10 décembre, le gouvernement a procédé à une forte désévaluation du peso (monnaie argentine) en faveur du dollar, et à une réduction drastique du budget et des subventions de l'Etat.<br>\n\
+Ces mesures annoncent des prochains mois très difficiles pour les argentins, qui verront leur pouvoir d'achat encore diminuer, alors que 40% d'entre eux vivent déjà sous le seuil de pauvreté. Elles devraient cependant avoir des effet bénéfiques sur l'inflation sur le long terme"],
+            ["La loi immigration, qu'est-ce que c'est ?", "IllustChro2-22_12_23.jpg", "Depuis le 14 novembre 2023, la 'loi immigration', validée par le Sénat est en cours d'étude par l'Assemblée nationale. Mais en fait, elle fait quoi cette loi ?<br>\n\
 La 'loi immigration' contient plusieurs points à mettre en place :<br>\n\
-- carte de séjour d'un an pour les travailleurs dans des secteurs en pénurie de main d'oeuvre ou dans le domaine médical. Sous conditions;<br>\n\
-- niveau de français requis pour recevoir une carte de séjour;<br>\n\
-- facilitation de l'explusion des ressortissants étrangers ayant reçu des condamnations importantes;<br>\n\
-- 'espaces France Asile' pour centraliser les démarches de demandes d'asile."]]
+- un carte de séjour d'un an pour les travailleurs dans des secteurs en pénurie de main d'oeuvre ou dans le domaine médical. Sous conditions;<br>\n\
+- un niveau de français requis pour obtenir une carte de séjour;<br>\n\
+- la facilitation de l'explusion des ressortissants étrangers ayant reçu des condamnations importantes;<br>\n\
+- des 'espaces France Asile' pour centraliser les démarches de demandes d'asile."]]
     ]
 ];
 var NumDer = contenu.length ;
