@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>RadioJean23</title>
+        <link rel ="stylesheet" type = "text/css" href = "RJ23_CSS.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body onload ="charge()" >
+        <script src = "RJ23_Interface.js"></script>
+        <!-- En tête de la page -->
+        <div id = "En-tete">
+            <img src ="LogoRJ23.JPG" alt ="Radio Jean23" id = "Logo"/>
+        </div>
+        <!-- Menu de navigation par thèmes-->
+        <div id ="Recherche" >
+            <input onclick = "aff_rchr()" type="text" id="RchrThemes" onkeyup="rchr_titre()" placeholder="Recherchez..." title="Recherchez une émission">
+            <i onclick = "cache_rchr()" id = "BttFermRchr" class="fa fa-close"></i>
+            <ul id="RchrMenu">
+            </ul>
+        </div>
+        
+        <button onclick ="dernier()" id ="Auj"><div id ="Arrow"></div><div id = "Line"></div></button>
+        <button onclick ="fleche(true)" class = "Fleches" id ="Droite"></button> 
+        <button onclick ="fleche(false)" class = "Fleches" id ="Gauche"></button> 
+        
+        <p id ="AffCal">Semaine du <a id = "Date"></a> : <a id = "PresentEm"></a></p>
+        
+        <ul id = "ContenuSemaine">
+            <li>
+                <audio controls id = "AudioEmiss">
+                    <source src="" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <div id ="Titre"></div>
+                <img src ="" alt ="IllustrationEmission" id ="ImgEmiss">
+            </li>
+            <li id ="Chronique1">
+                <p class ='TitreChronique'>L'actu n°1 : <a id = 'TitreChro1'></a></p>
+                <img src ="" alt ="IllustrationChronique1" id ="ImgChro1" class = "Ill_Chron"/>
+                <p id = "TxtChr1" class ="TextChronique"></p>
+            </li>
+            <li id ="Chronique2">
+                <p class ='TitreChronique'>L'actu n°2 : <a id = 'TitreChro2'></a></p>
+                <img src ="" alt ="IllustrationChronique2" id ="ImgChro2" class = "Ill_Chron"/>
+                <p id = "TxtChr2" class ="TextChronique"></p>
+            </li>
+        </ul>
+    </body>
+</html>

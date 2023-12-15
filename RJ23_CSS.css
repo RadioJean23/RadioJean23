@@ -1,0 +1,220 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 3 oct. 2023, 17:56:49
+    Author     : Elève
+*/
+/*Affichage calendrier*/
+#AffCal{
+    position : fixed ;
+    font-size : 40px ;
+    font-weight : bold ;
+    color : darkred ;
+    left : 120px ;
+    top : 100px ;
+}
+
+
+/*Affichage Emission*/
+#ImgEmiss{
+  width: 100%;
+  height: auto;
+  opacity: 0.6;
+    z-index : -1 ;
+}
+#AudioEmiss{
+  z-index: 90;
+  position: absolute;
+  top : 300px ;
+  right : 200px ;
+  width: 30%;
+}
+#Titre{
+    position : absolute ;
+    left : 100px ;
+    top : 220px ;
+    font-size : 80px ;
+    font-weight : bold ;
+    z-index: 2;
+    padding : 20px ;
+    border-radius : 10px ;
+    width : 45% ;
+    background-color : white ;
+}
+/*-  -  -  -  -  -  -  -  -  -  -  -*/
+
+
+/*Affichage Chroniques*/
+.Ill_Chron{
+    position : relative ;
+    height : 75% ;
+    width : 45%;
+    top : 0px ;
+    left : 25px ;
+}
+.TitreChronique{
+    text-align : center ;
+    position : relative ;
+    width : 100% ;
+    top : 10px ;
+    font-size: 40px ;
+    color : red ;
+}
+.TextChronique{
+    position : relative ;
+    width : 46% ;
+    left : 900px ;
+    top : -550px ;
+    font-size : 30px ;
+}
+/*-  -  -  -  -  -  -  -  -  -  -  -*/
+
+
+/*Affichage boutons de navigation*/
+.Fleches{
+  border: solid black;
+  border-width: 0 10px 10px 0;
+  display: inline-block;
+  padding: 10px;
+  background-color : white ;
+}
+.Fleches:hover{
+    border-color : grey;
+}
+#Droite{
+    transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+    position : fixed ;
+    top : 150px ;
+    right : 140px ;
+    
+}
+#Gauche{
+      transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+    position : fixed ;
+    top : 150px ;
+    left : 50px ;
+}
+#Auj{
+  position : fixed ;
+  top : 150px ;
+  right : 100px ;
+  height : 60px ;
+  width : 60px ;
+  background-color : white ;
+  border : none ;
+  color : black ;
+}
+#Auj:hover{
+    color : grey ;
+}
+#Arrow{
+                 border: solid;
+  border-width: 0 10px 10px 0;
+  display: inline-block;
+  padding: 10px;
+  background : none ;
+    transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+    position : fixed ;
+    top : 150px ;
+    right : 70px ;
+}
+#Line {
+    position : fixed ;
+    top : 145px ;
+    right : 50px ;
+    height : 32px ;
+    border : 5px solid ;
+}
+/*-  -  -  -  -  -  -  -  -  -  -  -*/
+
+
+
+/*Affichage Encadrés*/
+#ContenuSemaine{
+    position : fixed ;
+    top : 200px ;
+    bottom : 0;
+    right : 0px ;
+    left : 0px ;
+    overflow : auto ;
+}
+#ContenuSemaine li {
+    margin-bottom : 50px ;
+    margin-right : 30px ;
+    border : 5px solid black ;
+    border-radius : 50px ;
+    height : 700px ;
+    overflow :hidden ;
+}
+/*-  -  -  -  -  -  -  -  -  -  -  -*/
+
+
+/*Entête + logo*/
+#En-tete{
+    background-color: lightgrey ;
+    height : 100px ;
+    position : fixed ;
+    left : 0px ;
+    right : 0px ;
+    top : 0px ;
+}
+#Logo{
+    position : fixed ;
+    margin : 10px ;
+    border-radius : 10px ;
+    height : 80px ;
+}
+/*-  -  -  -  -  -  -  -  -  -  -  -*/
+
+
+/* Style the search box */
+#BttFermRchr{
+   position : absolute ;
+   font-size : 30px ;
+    font-weight : bold ;
+    right : 20px ;
+    top : 17px ;
+}
+#Recherche{
+    border : 2px solid black ;
+    width: 400px;
+    padding : 10px ;
+    position : fixed ;
+    right : 50px ;
+    top : 15px ;
+    border-radius: 5px;
+    background-color : white ;
+    z-index : 99 ;
+}
+#RchrThemes {
+  font-size: 20px;
+  padding: 11px;
+  width : 93%;
+  border: 1px solid #ddd;
+}
+/* Style the navigation menu */
+#RchrMenu {
+  display : none ;
+  height : 150px ;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-top : 10px ;
+  overflow : auto ;
+}
+/* Style the navigation links */
+#RchrMenu li a {
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  display: block
+}
+#RchrMenu li a:hover {
+  background-color: #eee;
+}
+/*-  -  -  -  -  -  -  -  -  -  -  -*/
