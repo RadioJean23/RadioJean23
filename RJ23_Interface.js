@@ -4,7 +4,7 @@
  */
 var contenu = [
     ["17/12/2023 au 22/12/2023", "La musique, élément central de nos sociétés",
-        [   ["IllustEmiss-22_12_23.jpg", "Audio-09_10_23.mp3"], 
+        [   ["IllustEmiss-22_12_23.jpg", "Audio-22_12_23.mp3"], 
             ["Javier Milei bouleverse l'Argentine avec des mesures choc", "IllustChro1-22_12_23.jpg", "Depuis plus d'un an, l'Argentine traverse une très forte crise économique. Selon l'Institut Argentin de Statistiques, les prix ont subi une inflation de environ 140%.<br>\n\
 Lors des élections de décembre, c'est Javier Milei qui s'est imposé en proposant une réponse radicale à la crise : l'ultra libéralisme. Depuis son élection le 10 décembre, le gouvernement a opéré à iune forte désévaluation du peso (monnaie argentine) en faveur du dollar, et à une réduction drastique du budget et des subventions de l'Etat.<br>\n\
 Ces mesures annoncent des prochains mois très difficiles pour les argentins, qui verront leur pouvoir d'achat encore diminuer, mais devraient avoir des effet bénéfiques sur l'inflation sur le long terme"],
